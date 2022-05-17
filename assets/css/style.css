@@ -1,0 +1,417 @@
+html,
+body {
+  height: 100%;
+  position: relative;
+  font-family: Roboto;
+  background: rgb(248, 248, 248);
+}
+
+.burger-house-promotion {
+  height: 100vh;
+  background-image: url("../img/Rectangle.png");
+  z-index: -2000;
+}
+
+.burger-house-bar {
+  display: flex;
+  align-items: center;
+}
+
+.burger-house-logo {
+  top: 50px;
+  left: 30px;
+  display: flex;
+}
+
+.burger-house-contact {
+  display: flex;
+  top: 50px;
+}
+
+.burger-house-contact-text a {
+  color: rgb(96, 59, 33);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Montserrat;
+  transition-duration: 0.5s, 0.5s;
+}
+
+.burger-house-contact-text a:hover {
+  text-decoration: none;
+  color: black;
+  transition-duration: 0.5s, 0.5s;
+}
+
+.burger-house-contact-text {
+  place-content: center;
+  align-items: center;
+  align-self: center;
+  padding-left: 20px;
+}
+
+.burger-house-navbar {
+  float: right;
+  padding-top: 70px;
+  margin-right: 60px;
+}
+
+.burger-house-nav-item {
+  padding: 0px 30px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.burger-house-nav-link {
+  color: rgb(96, 59, 33);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Montserrat;
+  transition-duration: 0.5s, 0.5s;
+}
+
+.burger-house-nav-link:hover {
+  text-decoration: none;
+  font-size: 25px;
+  transition-duration: 0.5s, 0.5s;
+  color: black;
+}
+
+.burger-house-main-ingroup {
+  margin-top: 18rem;
+  margin-left: 60px;
+}
+
+.burger-house-main-text-0 p {
+  margin-top: -44px;
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.burger-house-main-text-1 p {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 200px;
+  margin-top: -50px;
+  color: rgb(61, 37, 20);
+  text-shadow: white 4px 6px 0px;
+}
+
+.burger-house-main-text-1 {
+  transition-duration: 0.5s, 0.5s;
+}
+
+.burger-house-main-text-ger {
+  transition-duration: 0.5s, 0.5s;
+  z-index: 1000;
+}
+
+.burger-house-main-text-1:hover>p .burger-house-main-text-ger {
+  padding-left: 200px;
+  transition-duration: 0.5s, 0.5s;
+}
+
+.burger-house-main-text-1:hover>.burger-image-main {
+  margin-top: -370px;
+  width: 180px;
+  margin-left: 490px;
+  opacity: 1;
+  transition-duration: 1.5s, 1.5s;
+}
+
+.burger-image-main {
+  margin-top: -370px;
+  width: 180px;
+  margin-left: 490px;
+  opacity: 0;
+  transition-duration: 0.5s, 0.5s;
+  z-index: -1000;
+}
+
+.burger-house-main-text-2 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 100px;
+  margin-top: -90px;
+  color: rgb(61, 37, 20);
+  text-shadow: white 4px 6px 0px;
+}
+
+.burger-house-promotion-image-s {
+  display: flex;
+  margin-top: 15px;
+}
+
+.burger-house-promotion-image-shadow0 {
+  margin-left: 51%;
+  margin-top: -33%;
+  z-index: 0;
+}
+
+.burger-house-promotion-image-burger {
+  margin-left: -30%;
+  margin-top: -19%;
+  z-index: 1;
+}
+
+.burger-house-promotion-image-cola {
+  margin-left: -8%;
+  margin-top: -28%;
+  z-index: 0;
+}
+
+.burger-house-promotion-image-potato {
+  margin-left: -38%;
+  margin-top: -25%;
+  z-index: 0;
+}
+
+.burger-house-promotion-image-shadow1 {
+  margin-left: 2%;
+  margin-top: 1%;
+  z-index: 0;
+}
+
+.burger-house-promotion-image-shadow2 {
+  margin-left: -33%;
+  margin-top: 3.5%;
+  z-index: 0;
+}
+
+.burger-house-catalog {
+  height: 62vh;
+  background-color: white;
+  z-index: -2000;
+}
+
+.catalog-left-image {
+  margin-top: 69px;
+  margin-left: 330px;
+}
+
+.catalog-up-image {
+  margin-top: 69px;
+  width: 16.5cm;
+}
+
+.catalog-down-image {
+  margin-top: 31px;
+  width: 16.5cm;
+}
+
+.catalog-left-image-ft {
+  margin-top: -411px;
+  margin-left: 361px;
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+}
+
+.catalog-left-image-st {
+  margin-top: -29px;
+  margin-left: 363px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  color: white;
+}
+
+.catalog-right-up-image-ft {
+  margin-top: -187px;
+  margin-left: 25px;
+  color: white;
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.catalog-right-up-image-st {
+  margin-top: -32px;
+  margin-left: 25px;
+  color: white;
+  font-size: 48px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.catalog-right-up-image-tt {
+  margin-top: -40px;
+  margin-left: 25px;
+  color: white;
+  font-size: 55px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.catalog-right-down-image-ft {
+  margin-top: -187px;
+  margin-left: 25px;
+  color: white;
+  font-family: 'Bebas Neue';
+  font-size: 30px;
+}
+
+.catalog-right-down-image-st {
+  margin-top: -29px;
+  margin-left: 25px;
+  color: white;
+  font-family: 'Bebas Neue';
+  font-size: 48px;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.custom-btn {
+  margin-left: 39.5%;
+  width: 160px;
+  height: 60px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+  outline: none;
+}
+
+.btn-5 {
+  width: 200px;
+  height: 50px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: #ffc045;
+  background: linear-gradient(180deg, #ffc045 0%, #c38100 100%);
+}
+
+.btn-5:hover {
+  color: #ffc045;
+  background: #ffffff;
+  box-shadow: none;
+}
+
+.btn-5:before,
+.btn-5:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #ffc045;
+  box-shadow:
+    -1px -1px 5px 0px #fff,
+    7px 7px 20px 0px #0003,
+    4px 4px 5px 0px #0002;
+  transition: 400ms ease all;
+}
+
+.btn-5:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.btn-5:hover:before,
+.btn-5:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.custom-buton-div {
+  margin-left: 40.3%;
+  margin-top: 67px;
+}
+
+.burger-house-company {
+  height: 150vh;
+  background-color: white;
+  z-index: -2000;
+}
+
+.burger-house-company-text-s {
+  text-align: center;
+}
+
+.burger-house-company-text-s-f {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 70px;
+  color: #3d2514;
+}
+
+.burger-house-company-text-s-s {
+  font-family: 'Bebas Neue';
+  width: 63%;
+  margin-left: 18.5%;
+  font-size: 30px;
+}
+
+.burger-house-company-product-s-image {
+  display: flex;
+  margin-top: 60px;
+}
+
+.burger-house-company-product-s-image-shadow-f,
+.burger-house-company-product-s-image-shadow-t {
+  margin-left: -45px;
+}
+
+.burger-house-company-product-s-image-shadow-s {
+  margin-left: -270px;
+}
+
+.burger-house-company-product-s-image-s {
+  margin-top: 100px;
+}
+
+.burger-house-company-product-s-image-s-s {
+  margin-left: -75px;
+}
+
+.burger-house-company-f-product-f-t,
+.burger-house-company-t-product-f-t {
+  color: #3d2514;
+  font-family: 'Bebas Neue';
+  font-size: 45px;
+  margin-left: 55px;
+}
+
+.burger-house-company-f-product-s-t,
+.burger-house-company-t-product-s-t {
+  color: #3d2514;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 25px;
+  width: 80%;
+  text-align: center;
+}
+
+.company-item-f,
+.company-item-s,
+.company-item-t {
+  padding-left: 150px;
+}
+
+.burger-house-company-s-product-f-t {
+  color: #3d2514;
+  font-family: 'Bebas Neue';
+  font-size: 45px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.burger-house-company-s-product-s-t {
+  color: #3d2514;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin-left: -190px;
+  font-size: 25px;
+  text-align: center;
+}
