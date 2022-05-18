@@ -24,6 +24,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 </head>
 
 <body>
@@ -158,7 +161,8 @@
                     <p class="burger-house-company-s-product-s-t">Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit.
                         Quae, incidunt.</p>
-                    <button class="custom-btn btn-12 ortancabuton"><span>Burger Details!</span><span>Read More</span></button>
+                    <button class="custom-btn btn-12 ortancabuton"><span>Burger Details!</span><span>Read
+                            More</span></button>
                 </div>
             </div>
             <div class="burger-house-company-product-s-image-t col-4">
@@ -172,8 +176,24 @@
                     <button class="custom-btn btn-12"><span>Burger Details!</span><span>Big King</span></button>
                 </div>
             </div>
+           
+        </div>
+        <div class="burger-house-company-product-s-image col-12">
+            <div class="slick">
+                <img src="assets/img/Image3.png">
+                <img src="assets/img/Image3.png">
+            </div>
         </div>
     </section>
 </body>
 
 </html>
+<script>
+    $('.slick').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+    });
+</script>
