@@ -34,8 +34,8 @@
         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/slick.css">
-
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 </head>
 
 <body>
@@ -221,6 +221,44 @@
                 </div>
             </div>
         </div>
+        <div class="burger-house-reservation-table">
+            <div class="burger-house-reservation-table-left-image-f">
+                <img src="assets/img/l.png">
+            </div>
+            <div class="burger-house-reservation-table-left-image-s">
+                <img src="assets/img/l1.png">
+            </div>
+            <div class="burger-house-reservation-table-center-text">
+                <p>RESERVATİON</p>
+                <p>BOOK YOUR TABLE</p>
+            </div>
+            <div class="container">
+                <div class="burger-house-reservation-table-center-text-box row">
+                    <div class="col-6">
+                        <input type="text" class="login__input" placeholder="NAME">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="login__input" placeholder="E-MAIL">
+                    </div>
+
+                    <div class="col-6">
+                        <input type="text" class="login__input" placeholder="DATE" id="DATE">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="login__input" placeholder="TIME" id="TIME">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="login__input" placeholder="PEOPLE">
+                    </div>
+                    <div class="col-6">
+                        <a class="button-find-or-order login__input" href="#">FIND TO ORDER</a>
+                    </div>
+                </div>
+            </div>
+            <div class="burger-house-reservation-table-right-image">
+                <img src="assets/img/l3.png">
+            </div>
+        </div>
     </section>
 </body>
 
@@ -236,5 +274,15 @@
             slidesToShow: 1,
             adaptiveHeight: false
         });
+
+
+        flatpickr("#DATE", {});
+        flatpickr("#TIME", {
+            enableTime: true,
+            noCalendar: true,
+            dateFormat: "H:i",
+            defaultDate: "TIME"
+        });
+
     });
 </script>

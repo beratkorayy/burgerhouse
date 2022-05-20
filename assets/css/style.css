@@ -418,8 +418,9 @@ a:hover {
 
 
 .burger-house-slider {
-  height: 150vh;
+  height: 210vh;
   background-color: white;
+  max-width: 100%;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////// */
@@ -430,7 +431,7 @@ a:hover {
 
 .item {
   display: flex !important;
-  height: 80vh !important;
+  height: 60vh !important;
 }
 
 .inner-Image {
@@ -452,7 +453,7 @@ a:hover {
 
 .slick-dots {
   left: -752px;
-  bottom: 264px !important;
+  bottom: 83px !important;
 }
 
 .slick-dots li button {
@@ -494,4 +495,104 @@ a:hover {
   margin-left: 55px;
   margin-top: 174px;
   width: 800px;
+}
+
+.burger-house-reservation-table {
+  display: flex;
+}
+
+.burger-house-reservation-table-left-image-s {
+  margin-top: 180px;
+  margin-left: -120px;
+}
+
+.burger-house-reservation-table-right-image {
+  margin-left: 191px;
+  margin-top: 180px;
+}
+
+.burger-house-reservation-table-center-text p:nth-child(1) {
+  color: #3d2514;
+  font-size: 60px;
+  font-family: 'Bebas Neue';
+  height: 60px;
+}
+
+.burger-house-reservation-table-center-text p:nth-child(2) {
+  color: #3d2514;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 80px;
+  width: 843px;
+}
+
+.burger-house-reservation-table-center-text {
+  text-align: center;
+  margin-left: 100px;
+}
+
+.burger-house-reservation-table-left-image-f {
+  margin-left: 30px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+.burger-house-reservation-table-center-text-box {
+  margin-top: 235px;
+  margin-left: -870px !important;
+  margin-right: 19px !important;
+}
+
+.login__input {
+  border: 2px solid #f99400;
+  background: none;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 3px;
+  font-weight: 700;
+  width: 100%;
+  transition: .2s;
+  display: flex;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+  outline: none;
+  border-color: #bd7000;
+}
+
+.tasima {
+  margin-top: 12px;
+  margin-left: 15px;
+  user-select: none;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 1rem 0.9rem;
+  pointer-events: none;
+  border: 1px solid transparent;
+  transform-origin: 0 0;
+  transition: opacity .1s ease-in-out, transform .1s ease-in-out;
+}
+
+.col-6 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 5px !important;
+  padding-left: 0px !important;
+}
+
+.button-find-or-order {
+  font-family: 'Bebas Neue';
+  font-size: 30px;
+  height: 48px;
+  border: none !important;
+  color: #ffffff !important;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #bf2222;
 }
