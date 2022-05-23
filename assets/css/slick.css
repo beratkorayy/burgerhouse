@@ -157,7 +157,7 @@
     color: transparent;
     border: 0;
     outline: none;
-    background: transparent;
+    /* background: transparent; */
 }
 
 .slick-dots li button:hover,
