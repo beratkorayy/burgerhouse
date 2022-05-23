@@ -140,7 +140,7 @@ body {
 
 .burger-house-promotion-image-s {
   display: flex;
-  margin-top: 15px;
+  margin-top: -30px;
 }
 
 .burger-house-promotion-image-shadow0 {
@@ -354,11 +354,11 @@ a:hover {
 
 .burger-house-company-product-s-image-shadow-f,
 .burger-house-company-product-s-image-shadow-t {
-  margin-left: -45px;
+  margin-left: -89px !important;
 }
 
 .burger-house-company-product-s-image-shadow-s {
-  margin-left: -270px;
+  margin-left: -250px !important;
 }
 
 .burger-house-company-product-s-image-s {
@@ -408,7 +408,8 @@ a:hover {
   margin-left: -190px;
   font-size: 25px;
   text-align: center;
-width: 163%;}
+  width: 163%;
+}
 
 .burger-house-slider {
   height: 145vh;
@@ -652,7 +653,7 @@ width: 163%;}
   margin-left: 73px;
 }
 
-.burger-house-site-end-right-bottom-logo-s ul{
+.burger-house-site-end-right-bottom-logo-s ul {
   display: flex;
   list-style: none;
   float: right;
@@ -660,6 +661,287 @@ width: 163%;}
   margin-right: 69px;
 }
 
-.burger-house-site-end-right-bottom-logo-s ul li{
+.burger-house-site-end-right-bottom-logo-s ul li {
   padding-left: 10px;
+}
+
+@media only screen and (max-width: 769px) {
+
+  .col-4 {
+    width: 100%;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .burger-house-promotion {
+
+    background-color: black;
+
+  }
+
+  .burger-house-logo {
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+
+  .burger-house-contact,
+  .burger-house-navbar {
+    display: none;
+  }
+
+  .burger-house-main-bground {
+
+    margin-left: -69px;
+    margin-top: -50%;
+  }
+
+  .burger-house-main-bground img {
+    width: 90%;
+    margin-left: 25px;
+  }
+
+  .burger-house-main-text-0 p {
+    font-size: 25px;
+    margin: -38px -28px;
+  }
+
+  body {
+    max-width: 414px;
+  }
+
+  .burger-image-main {
+    display: none;
+  }
+
+  .burger-house-main-text-1 {
+    margin-top: 70px;
+  }
+
+  .burger-house-main-text-1 p,
+  .burger-house-main-text-ger,
+  .burger-house-main-text-2 {
+    font-size: 60px;
+  }
+
+  .burger-house-main-text-1 {
+    margin-left: -5px;
+  }
+
+  .burger-house-main-text-1:hover>p .burger-house-main-text-ger {
+    padding-left: 0px;
+  }
+
+  .burger-house-main-text-2 {
+    margin-top: -27px;
+    margin-left: 31px;
+  }
+
+  .catalog-left-image {
+    width: 360px;
+    margin-left: 30px;
+    margin-top: 35px;
+  }
+
+  .catalog-left-image-ft,
+  .catalog-left-image-st {
+    margin-left: 46px;
+  }
+
+  .catalog-left-image-ft {
+    margin-top: -245px;
+    font-size: 30px;
+  }
+
+  .catalog-left-image-st {
+    margin-top: -8px;
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .burger-house-catalog {
+    height: 75vh;
+  }
+
+  .burger-house-catalog-r {
+    margin-left: -88.7px;
+    margin-top: 119px;
+  }
+
+  .catalog-up-image {
+    width: 360px;
+  }
+
+  .catalog-right-up-image-ft,
+  .catalog-right-up-image-st,
+  .catalog-right-up-image-tt {
+    font-size: 31px;
+  }
+
+  .catalog-right-up-image-ft {
+    font-size: 30px;
+    margin-top: -110px;
+    margin-left: 15px;
+  }
+
+  .catalog-right-up-image-st {
+    margin-left: 15.5px;
+    margin-top: -34px;
+  }
+
+  .catalog-right-up-image-tt {
+    margin-left: 15.5px;
+    margin-top: -33px;
+  }
+
+  .catalog-down-image {
+
+    width: 360px;
+    margin-top: 12px;
+  }
+
+  .catalog-right-down-image-ft {
+
+    margin-top: -111px;
+    margin-left: 15px;
+  }
+
+  .catalog-right-down-image-st {
+
+    margin-top: -34px;
+    margin-left: 15px;
+  }
+
+  .burger-house-promotion-image-shadow0 img {
+
+    width: 453px;
+    margin-left: -250px !important;
+    ;
+    margin-top: 123px;
+  }
+
+  .burger-house-promotion-image-burger img {
+
+    width: 239px;
+    margin-left: -192px !important;
+    margin-top: 190px;
+  }
+
+  .burger-house-promotion-image-cola img {
+
+    width: 82px;
+    margin-left: -55px !important;
+    margin-top: 158px;
+    height: 266px;
+  }
+
+  .burger-house-promotion-image-potato img {
+
+    width: 180px;
+    margin-left: -157px !important;
+    margin-top: 168px;
+  }
+
+  .burger-house-promotion-image-shadow1 img {
+
+    width: 434px;
+    margin-left: -197px !important;
+    margin-top: 326px;
+  }
+
+  .burger-house-promotion-image-shadow2 img {
+
+    width: 234px;
+    margin-left: -132px !important;
+    margin-top: 310px;
+  }
+
+  .custom-buton-div {
+    margin-top: -1px;
+    margin-left: 31px;
+  }
+
+  .burger-house-company-text-s-f {
+    font-size: 35px;
+  }
+
+  .burger-house-company-text-s-s {
+    font-size: 26px;
+    width: 85%;
+    margin-left: 38px;
+  }
+
+  .company-item-f img {
+    width: 253px;
+    margin-left: -109px;
+  }
+
+  .burger-house-company-f-product-f-t {
+    margin-left: -62px;
+    width: 200px;
+    font-size: 30px;
+  }
+
+  .burger-house-company-f-product-s-t {
+    width: 325px;
+    margin-left: -125px;
+    margin-top: -9px;
+  }
+
+  .burger-house-company {
+    height: 237vh;
+  }
+
+  .burger-house-company-product-s-image-burger-s {
+    margin-left: -210px !important;
+    width: 238px;
+    margin-top: 490px;
+  }
+
+  .burger-house-company-product-s-image-shadow-s {
+    width: 333px;
+  }
+
+  .burger-house-company-s-product-f-t {
+    margin-left: -185px;
+    width: 200px;
+    font-size: 30px;
+  }
+
+  .burger-house-company-s-product-s-t {
+    width: 335px;
+    margin-left: -254px;
+    margin-top: -9px;
+  }
+
+  .burger-house-company-product-s-image-burger-t {
+    width: 253px;
+    margin-left: -364px;
+    margin-top: 1126px;
+  }
+
+  .burger-house-company-product-s-image-shadow-t {
+    width: 264px;
+    margin-left: -235px !important;
+    margin-top: 1386px;
+  }
+
+  .burger-house-company-t-product-f-t {
+    margin-left: -321px;
+    width: 200px;
+    font-size: 30px;
+  }
+
+  .burger-house-company-t-product-s-t {
+    width: 325px;
+    margin-left: -383px;
+    margin-top: -9px;
+  }
+
+  .right-here-three {
+    margin-left: -255px;
+  }
+
+
 }
