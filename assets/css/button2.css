@@ -778,7 +778,7 @@ h1 {
 
 .btn-12 {
   position: relative;
-  right: 56px;
+  right: -120px;
   top: -15px;
   bottom: 20px;
   border: none;
@@ -788,7 +788,8 @@ h1 {
   line-height: 42px;
   -webkit-perspective: 230px;
   perspective: 230px;
-z-index: 10000;}
+  z-index: 10000;
+}
 
 .btn-12 span {
   background: rgb(0, 172, 238);
@@ -855,5 +856,5 @@ z-index: 10000;}
 }
 
 .ortancabuton {
-  margin-left: 132px;
+  margin-left: 41px;
 }
