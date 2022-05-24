@@ -182,7 +182,8 @@
                     <p class="burger-house-company-t-product-s-t">Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit.
                         Quae, incidunt.</p>
-                    <button class="custom-btn right-here-three btn-12"><span>Burger Details!</span><span>Big King</span></button>
+                    <button class="custom-btn right-here-three btn-12"><span>Burger Details!</span><span>Big
+                            King</span></button>
                 </div>
             </div>
 
@@ -192,7 +193,7 @@
         <div class="Slider">
             <div class="item" style="background-color: rgb(255, 255, 255);">
                 <div class="inner-Image">
-                    <span><img src="assets/img/asaassaas.png"></span>
+                    <span><img class="f-slider-image" src="assets/img/asaassaas.png"></span>
                     <span>DISCOVER</span>
                     <span>UPCOMING EVENTS</span>
                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -202,7 +203,7 @@
             </div>
             <div class="item" style="background-color:rgb(255, 255, 255);">
                 <div class="inner-Image">
-                    <span><img src="assets/img/asaassaas.png"></span>
+                    <span><img class="s-slider-image" src="assets/img/asaassaas.png"></span>
                     <span>DISCOVER</span>
                     <span>UPCOMING EVENTS</span>
                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -212,7 +213,7 @@
             </div>
             <div class="item" style="background-color:rgb(255, 255, 255);">
                 <div class="inner-Image">
-                    <span><img src="assets/img/asaassaas.png"></span>
+                    <span><img class="t-slider-image" src="assets/img/asaassaas.png"></span>
                     <span>DISCOVER</span>
                     <span>UPCOMING EVENTS</span>
                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -234,23 +235,23 @@
             </div>
             <div class="container">
                 <div class="burger-house-reservation-table-center-text-box row">
-                    <div class="col-6">
+                    <div class="burger-house-reservation-table-center-text-box-s col-6">
                         <input type="text" class="login__input" placeholder="NAME">
                     </div>
-                    <div class="col-6">
+                    <div class="burger-house-reservation-table-center-text-box-s col-6">
                         <input type="text" class="login__input" placeholder="E-MAIL">
                     </div>
 
-                    <div class="col-6">
+                    <div class="burger-house-reservation-table-center-text-box-s col-6">
                         <input type="text" class="login__input" placeholder="DATE" id="DATE">
                     </div>
-                    <div class="col-6">
+                    <div class="burger-house-reservation-table-center-text-box-s col-6">
                         <input type="text" class="login__input" placeholder="TIME" id="TIME">
                     </div>
-                    <div class="col-6">
+                    <div class="burger-house-reservation-table-center-text-box-s col-6">
                         <input type="text" class="login__input" placeholder="PEOPLE">
                     </div>
-                    <div class="col-6">
+                    <div class="burger-house-reservation-table-center-text-box-s col-6">
                         <a class="button-find-or-order login__input" href="#">FIND TO ORDER</a>
                     </div>
                 </div>
@@ -262,7 +263,7 @@
     </section>
     <section class="burger-house-site-end">
         <div class="burger-house-site-end-logo">
-            <img width="550px" src="assets/img/logoend.png">
+            <img class="burger-house-site-end-logo" width="550px" src="assets/img/logoend.png">
         </div>
         <div class="burger-house-site-end-left-text">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -285,22 +286,22 @@
             <p>© Company Name 2022. All rights reserved. By. Koray GÜNDOĞDU</p>
         </div>
         <div class="burger-house-site-end-right-bottom-logo-s">
-            <ul>
-                <li>
-                    <a href="#"><img src="assets/img/Instagram.png"></a>
+            <ul class="burger-house-social-media-icon">
+                <li class="burger-house-social-media-icons">
+                    <a class="burger-house-social-media-icon-i" href="#"><img src="assets/img/Instagram.png"></a>
                 </li>
-                <li>
-                    <a href="#">
+                <li class="burger-house-social-media-icons">
+                    <a class="burger-house-social-media-icon-f" href="#">
                         <img src="assets/img/Facebook.png">
                     </a>
                 </li>
-                <li>
-                    <a href="#">
+                <li class="burger-house-social-media-icons">
+                    <a class="burger-house-social-media-icon-t" href="#">
                         <img src="assets/img/Twitter.png">
                     </a>
                 </li>
-                <li>
-                    <a href="#">
+                <li class="burger-house-social-media-icons">
+                    <a class="burger-house-social-media-icon-w" href="#">
                         <img src="assets/img/WhatsApp.png">
                     </a>
                 </li>
@@ -323,13 +324,16 @@
         });
 
 
-        flatpickr("#DATE", {});
+        flatpickr("#DATE", {
+            disableMobile: "true",
+        });
         flatpickr("#TIME", {
             enableTime: true,
             noCalendar: true,
             dateFormat: "H:i",
-            defaultDate: "TIME"
+            defaultDate: "TIME",
+            disableMobile: "true"
         });
-
     });
+
 </script>

@@ -354,7 +354,7 @@ a:hover {
 
 .burger-house-company-product-s-image-shadow-f,
 .burger-house-company-product-s-image-shadow-t {
-  margin-left: -89px !important;
+  margin-left: -92px !important;
 }
 
 .burger-house-company-product-s-image-shadow-s {
@@ -434,7 +434,7 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 6px;
   transition: all 0.3s linear 0s;
-  box-shadow: rgb(151, 151, 151) 7px 7px 20px 5px;
+  box-shadow: rgb(151 151 151) 0px 0px 20px 3px;
 }
 
 .inner-Image span {
@@ -662,7 +662,7 @@ a:hover {
 }
 
 .burger-house-site-end-right-bottom-logo-s ul li {
-  padding-left: 10px;
+  padding-left: 44px;
 }
 
 @media only screen and (max-width: 769px) {
@@ -874,7 +874,7 @@ a:hover {
 
   .company-item-f img {
     width: 253px;
-    margin-left: -109px;
+    margin-left: -114px;
   }
 
   .burger-house-company-f-product-f-t {
@@ -894,7 +894,7 @@ a:hover {
   }
 
   .burger-house-company-product-s-image-burger-s {
-    margin-left: -210px !important;
+    margin-left: -209px !important;
     width: 238px;
     margin-top: 490px;
   }
@@ -943,5 +943,179 @@ a:hover {
     margin-left: -255px;
   }
 
+  .ortancabuton {
+    margin-left: -120px !important;
+  }
+
+  .slick-slide {
+    margin-top: 40px;
+    height: 10vh;
+  }
+
+  .f-slider-image,
+  .s-slider-image,
+  .t-slider-image {
+    width: 351px;
+    border-radius: 4px;
+  }
+
+  .inner-Image span:nth-child(2) {
+
+    margin-top: -5px;
+    margin-left: 115px;
+    font-size: 50px;
+  }
+
+  .inner-Image span:nth-child(3) {
+
+    margin-top: -5px;
+    margin-left: 12px;
+    font-size: 31px;
+  }
+
+  .inner-Image span:nth-child(4) {
+
+
+    margin-left: 0px;
+    width: fit-content;
+    font-size: 16px;
+    text-align: center;
+    ;
+    margin: auto 11px;
+  }
+
+  .burger-house-reservation-table-left-image-f {
+    display: none;
+  }
+
+  .burger-house-reservation-table-left-image-s {
+    display: none;
+  }
+
+  .burger-house-reservation-table-center-text {
+    margin-left: -217px;
+    margin-top: -70px;
+  }
+
+  .burger-house-reservation-table-center-text p:nth-child(1) {
+    margin-left: 0px;
+    margin-top: -25px;
+    font-size: 40px;
+  }
+
+  .burger-house-reservation-table-center-text p:nth-child(2) {
+    margin-left: 2px;
+    margin-top: -28px;
+    font-size: 35px;
+  }
+
+  .burger-house-reservation-table-right-image {
+    display: none;
+  }
+
+  .burger-house-reservation-table-center-text-box {
+    margin-top: 17px;
+    margin-left: -634px !important;
+    width: 878px;
+    display: grid !important;
+  }
+
+  .burger-house-reservation-table-center-text-box-s {
+    padding-top: 5px;
+  }
+
+  .burger-house-slider {
+    height: 120vh;
+  }
+
+  .burger-house-site-end-logo>.burger-house-site-end-logo {
+    margin-top: -56px;
+    margin-left: -35px;
+    width: 340px;
+  }
+
+  .burger-house-site-end-left-text p {
+
+    margin-left: -50px;
+    width: 370px;
+    margin-top: -49px;
+    text-align: center;
+  }
+
+  .burger-house-site-end-right-location-mail {
+    margin-top: -85px;
+  }
+
+  .burger-house-site-end-right-ul {
+    margin-left: 0;
+  }
+
+  .burger-house-site-end-right-li-1 {
+    margin-top: -84px;
+  }
+
+  .burger-house-site-end-right-li-1 img {
+    width: 35px !important;
+    height: 40px;
+    margin-left: 50px;
+  }
+
+  .burger-house-site-end-right-li-1 p {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .burger-house-site-end-right-li-2 {
+    margin-left: 1px;
+  }
+
+  .burger-house-site-end-right-li-2 img {
+    width: 30px !important;
+    height: 35px;
+    margin-left: 100px;
+  }
+
+  .burger-house-site-end-right-li-2 p {
+    font-size: 16px;
+    margin-top: 11px;
+    margin-left: -2px;
+  }
+
+  .burger-house-site-end-left-bottom-text {
+
+    color: white;
+    font-size: 12px;
+    margin-top: 137px;
+    margin-left: 28px;
+  }
+
+  .burger-house-site-end-right-bottom-logo-s {
+
+    margin-top: -94px;
+  }
+
+  .burger-house-social-media-icon-i img {
+    width: 45px;
+    margin-left: -200px;
+  }
+
+  .burger-house-social-media-icon-f img {
+    width: 45px;
+    margin-left: -160px;
+  }
+
+  .burger-house-social-media-icon-t img {
+    width: 45px;
+    margin-left: -120px;
+  }
+
+  .burger-house-social-media-icon-w img {
+    width: 45px;
+    margin-left: -80px;
+  }
+
+  .burger-house-site-end-right-bottom-logo-s ul{
+    margin-right: 30px !important;
+  }
 
 }
